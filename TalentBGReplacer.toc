@@ -1,0 +1,12 @@
+## Interface: 110105
+## Title: Talent BG Replacer
+## Notes: Replace talent panel background texture
+## Author: ChatGPT
+## Version: 1.0
+## SavedVariables: TBR_DB
+## Title-zhCN: 天赋背景替换器
+## DefaultState: enabled
+
+
+localization.lua
+TalentBGReplacer.lua
