@@ -6,7 +6,7 @@ if locale == "zhCN" then
     -- 简体中文
     L.TITLE = "天赋背景替换器"
     L.SELECT_SPEC = "选择专精"
-    L.INPUT_HINT = "请将贴图放入 Interface\\AddOns\\TBRT\\（需手动新建），只填写文件名，例如：frost.tga"
+    L.INPUT_HINT = "请将贴图放入 Interface\\AddOns\\TBRT\\（需手动新建此文件夹，以避免插件更新时覆盖您的背景图），只填写文件名，例如：frost.tga"
     L.SAVE = "保存贴图"
     L.CLEAR = "恢复默认"
     L.RELOAD = "重载界面"
@@ -17,7 +17,7 @@ elseif locale == "ruRU" then
     -- Русский ZamestoTV
     L.TITLE = "Замена фона талантов"
     L.SELECT_SPEC = "Выбрать специализацию"
-    L.INPUT_HINT = "Поместите текстуры в Interface\\AddOns\\TBRT\\ (создайте вручную). Указывайте только имя файла, например: frost.tga"
+    L.INPUT_HINT = "Поместите текстуры в Interface\\AddOns\\TBRT\\ (создайте эту папку вручную, чтобы избежать перезаписи фоновых изображений при обновлении плагина). Указывайте только имя файла, например: frost.tga"
     L.SAVE = "Сохранить"
     L.CLEAR = "Сбросить"
     L.RELOAD = "Перезагрузка"
@@ -28,7 +28,7 @@ else
     -- 默认英文
     L.TITLE = "Talent BG Replacer"
     L.SELECT_SPEC = "Select Specialization"
-    L.INPUT_HINT = "Place textures in Interface\\AddOns\\TBRT\\ (create manually). Only enter filename, e.g.: frost.tga"
+    L.INPUT_HINT = "Place textures in Interface\\AddOns\\TBRT\\ (create this folder manually to avoid overwriting your background images during plugin updates). Only enter filename, e.g.: frost.tga"
     L.SAVE = "Save"
     L.CLEAR = "Reset"
     L.RELOAD = "Reload UI"
