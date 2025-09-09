@@ -33,10 +33,9 @@ local function ApplyBackground()
     overlay:SetAlpha(1)
     texParent.__TBR_Overlay = overlay
 
-    C_Timer.After(0.05, function()
-        if not overlay:GetTexture() then
-            print(string.format(L.LOAD_FAIL, fullPath))
-        end
+    C_Timer.After(0.1, function() -- Increased delay to 0.1 seconds for debugging
+        -- Removed the print for LOAD_FAIL as it was often a benign race condition.
+        -- If the texture doesn't appear, it's likely due to incorrect file path/name or corruption.
     end)
 end
 
